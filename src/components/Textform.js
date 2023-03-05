@@ -94,7 +94,7 @@ const countWords = (str) => {
   <div className="container my-2"  style={{color:props.mode==='dark'?'white':'#042743'}}>
   <h1>{props.heading}</h1>
 <div class="mb-3">
-<GrammarlyEditorPlugin clientId="client_J3yN5YxZyPjamoYchMARLo">
+<GrammarlyEditorPlugin clientId="client_JWxvXi2iJXAVvorb6qN8ii">
  <textarea className="form-control"  value={text} id="mybox"  rows="8" onChange={handleuponchange}  style={{backgroundColor:props.mode==='dark'?'grey':'white' ,
 color:props.mode==='dark'?'white':'#042743'}} ></textarea>
     </GrammarlyEditorPlugin>
@@ -116,7 +116,7 @@ color:props.mode==='dark'?'white':'#042743'}} ></textarea>
       <h2>Your Text Summary</h2>
       <p> <b>{countWords(text)}</b>  <b>Words</b> | <b>{text.length}</b>  <b>Charater</b> </p>
       <p> <b>{0.008 * countWords(text)}</b>  <b>Minutes Read</b> </p>
-      <h2>Preview</h2>
+      <h3> Preview </h3>
       <p><b>{text.length>0?text:"Nothing To Preview !!!"}</b></p>
 
   </div>
