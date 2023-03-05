@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Textform from "./components/Textform";
 import Alert from "./components/Alert";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 //  import {  Routes , Route } from "react-router-dom";
 
@@ -61,8 +62,9 @@ function App() {
         <Alert alert={alert} />
          <Routes>
         <Route path='/' element={<Textform showAlert={showAlert} heading="Enter your Text to analyze" mode={mode}/>}/>
-          <Route path='about' element={<About/>} />
+          <Route path='about' element={<About   mode={mode}/>} />
         </Routes>
+        <Footer title="Designed by Paras Raut" mode={mode} togglemode={togglemode}/>
         </HashRouter> 
       </div> 
    
