@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/grammer/static/css/main.073c9b0a.css",
+    "main.js": "/grammer/static/js/main.3d58ca8c.js",
+    "static/js/787.0466c667.chunk.js": "/grammer/static/js/787.0466c667.chunk.js",
+    "index.html": "/grammer/index.html",
+    "main.073c9b0a.css.map": "/grammer/static/css/main.073c9b0a.css.map",
+    "main.3d58ca8c.js.map": "/grammer/static/js/main.3d58ca8c.js.map",
+    "787.0466c667.chunk.js.map": "/grammer/static/js/787.0466c667.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3d58ca8c.js"
+  ]
+}
